@@ -24,7 +24,7 @@ function mapToDouble(sourceArray) {
 function mapToSquare(sourceArray) {
   const squared = []
   for (const n of sourceArray) {
-    const newSquare = n^2
+    const newSquare = n * n
     squared.push(newSquare)
   }
   return squared
