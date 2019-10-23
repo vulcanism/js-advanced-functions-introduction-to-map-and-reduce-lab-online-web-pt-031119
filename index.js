@@ -30,6 +30,10 @@ function mapToSquare(sourceArray) {
   return squared
 }
 
-function reduceToTotal(sourceArray, startingPoint) {
-
+function reduceToTotal(sourceArray, startingPoint=0) {
+  const total = startingPoint
+  for (const price of sourceArray) {
+    total = startingPoint += price
+  }
+  return total
 }
