@@ -20,3 +20,12 @@ function mapToDouble(sourceArray) {
   }
   return doubles
 }
+
+function mapToSquare(sourceArray) {
+  const squared = []
+  for (const n of sourceArray) {
+    const newSquare = n^2
+    squared.push(newSquare)
+  }
+  return squared
+}
