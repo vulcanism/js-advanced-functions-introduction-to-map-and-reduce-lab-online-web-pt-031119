@@ -7,3 +7,7 @@ function mapToNegativize(sourceArray) {
   }
   return negatives
 }
+
+function mapToNoChange(sourceArray) {
+
+}
