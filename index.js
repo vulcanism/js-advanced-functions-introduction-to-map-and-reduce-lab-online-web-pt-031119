@@ -47,5 +47,10 @@ function reduceToAllTrue(sourceArray) {
 }
 
 function reduceToAnyTrue(sourceArray) {
-
+  for (const x of sourceArray) {
+    if (element) {
+      return true
+    }
+  }
+  return false
 }
