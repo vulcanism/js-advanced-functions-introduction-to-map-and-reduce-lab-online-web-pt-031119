@@ -14,6 +14,9 @@ function mapToNoChange(sourceArray) {
 
 function mapToDouble(sourceArray) {
   const doubles = []
-  for (const )
-
+  for (const n of sourceArray) {
+    const newDouble = n * 2
+    doubles.push(newDouble)
+  }
+  return doubles
 }
