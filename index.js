@@ -41,7 +41,7 @@ function reduceToTotal(sourceArray, startingPoint=0) {
 function reduceToAllTrue(sourceArray) {
   let result = undefined
   for (const x of sourceArray) {
-    result = !!element
+    result = !!x
   }
   return result
 }
