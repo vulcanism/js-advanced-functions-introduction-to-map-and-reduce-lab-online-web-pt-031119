@@ -29,3 +29,7 @@ function mapToSquare(sourceArray) {
   }
   return squared
 }
+
+function reduceToTotal(sourceArray, startingPoint) {
+
+}
