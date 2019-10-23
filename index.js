@@ -1,8 +1,8 @@
 
 function mapToNegativize(sourceArray) {
   const negatives = []
-  for (const number of sourceArray) {
-    const newNegative = number * -1
+  for (const n of sourceArray) {
+    const newNegative = n * -1
     negatives.push(newNegative)
   }
   return negatives
@@ -13,5 +13,7 @@ function mapToNoChange(sourceArray) {
 }
 
 function mapToDouble(sourceArray) {
+  const doubles = []
+  for (const )
 
 }
